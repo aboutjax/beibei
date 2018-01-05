@@ -1,0 +1,33 @@
+.c-splash {
+    min-height: 100vh;
+    display: flex;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: $spacing-xl 0;
+
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.c-splash__header {
+    font-family: 'Merriweather', serif;
+    line-height: 56px;
+}
+
+.c-splash__supplementary {
+    color: $colour-supplementary;
+}
+
+.c-splash__small-text {
+    font-size: 18px;
+}
+
+.c-splash__icon {
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.2));
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 1}
+}

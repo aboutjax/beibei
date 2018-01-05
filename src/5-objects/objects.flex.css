@@ -1,0 +1,35 @@
+.o-flex {
+    display: flex;
+}
+
+.o-flex--row {
+    flex-direction: row;
+}
+
+.o-flex--column {
+    flex-direction: column;
+}
+
+.o-flex-justify--center {
+    justify-content: center;
+}
+
+.o-flex-justify--space-between {
+    justify-content: space-between;
+}
+
+.o-flex-justify--space-around {
+    justify-content: space-around;
+}
+
+.o-flex-align--center {
+    align-items: center;
+}
+
+.o-flex-align--start {
+    align-items: start;
+}
+
+.o-flex-align--end {
+    align-items: flex-end;
+}

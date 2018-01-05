@@ -1,0 +1,45 @@
+/* Breakpoints and simple media query mixins */
+
+$breakpoint-real-small: 375px;
+$breakpoint-smallish: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+$breakpoint-xlarge: 1280px;
+$breakpoint-xxlarge: 1600px;
+$breakpoint-xxxlarge: 1920px;
+$breakpoint-navigation: 940px !default;
+@define-mixin small {
+    @media only screen and (max-width: $breakpoint-smallish - 1px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin smallish {
+    @media only screen and (min-width: $breakpoint-smallish) {
+        @mixin-content;
+    }
+}
+
+@define-mixin medium {
+    @media only screen and (min-width: $breakpoint-medium) {
+        @mixin-content;
+    }
+}
+
+@define-mixin up-to-medium {
+    @media only screen and (max-width: $breakpoint-medium - 1px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin up-to-large {
+    @media only screen and (max-width: $breakpoint-large - 1px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin large {
+    @media only screen and (max-width: $breakpoint-large) {
+        @mixin-content;
+    }
+}

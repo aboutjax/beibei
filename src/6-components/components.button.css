@@ -1,0 +1,15 @@
+.button {
+    text-decoration: none;
+    font-weight: 600;
+    padding: $spacing;
+    text-align: center;
+    background: $colour-brand;
+    color: $colour-white;
+    text-transform: capitalize;
+
+    @add-mixin hover {
+        cursor: pointer;
+        background: color($colour-brand blackness(30%))
+    }
+
+}

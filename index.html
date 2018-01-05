@@ -1,0 +1,19 @@
+---
+layout: fullscreen
+headline: "CookSafe"
+subheadline: "<strong>Get your Food Control Plan in minutes</strong>. A lot of food businesses struggle with setting up a Food Control Plan. We are developing a solution to set one up quickly and easily, so you can focus on serving delicious food."
+launch_date: "Launching for iOS in May 2018"
+slug: 'launch'
+---
+
+<div class="o-wrapper">
+  <div class="c-splash">
+    <div class="o-flex o-flex--column o-flex-justify--center o-flex-align--start o-gutters">
+      <img class="c-splash__icon o-spacing-bottom--l" src={{"/assets/app-icon.png" | relative_url }} alt="app icon">
+      <h1 class="c-splash__header">{{page.headline}}</h1>
+      <p class="c-splash__supplementary o-spacing-bottom--l">{{page.subheadline}}</p>
+      {% include mailchimp.html label='subscribe'%}
+      <p class="c-splash__supplementary c-splash__small-text  o-spacing-top">Not sure if you need a Food Control Plan? <a onclick="gEventLinkMpi()" href="https://www.mpi.govt.nz/food-safety/food-act-2014/where-do-i-fit/">Find out here →</a></p>
+    </div>
+  </div>
+</div>

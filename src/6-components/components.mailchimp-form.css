@@ -1,0 +1,23 @@
+.c-mailchimp-form {
+    width: 100%;
+}
+
+.c-mailchimp-form__email {
+    margin-right: 0;
+    margin-bottom: $spacing;
+
+    @add-mixin medium {
+        margin-right: $spacing-s;
+        margin-bottom: 0;
+    }
+}
+
+.c-mailchimp-form__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @add-mixin medium {
+        flex-direction: row;
+    }
+}

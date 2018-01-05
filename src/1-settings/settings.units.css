@@ -1,0 +1,7 @@
+$spacing: 16px;
+$spacing-xxs: calc($spacing / 4);
+$spacing-xs: calc($spacing / 3) ;
+$spacing-s: calc($spacing / 2) ;
+$spacing-l: calc($spacing * 2) ;
+$spacing-xl: calc($spacing * 3) ;
+$spacing-xxl: calc($spacing * 4) ;

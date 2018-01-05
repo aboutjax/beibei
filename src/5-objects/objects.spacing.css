@@ -1,0 +1,59 @@
+.o-spacing-top {
+    margin-top: $spacing;
+}
+
+.o-spacing-top--l {
+    margin-top: $spacing-l;
+}
+
+.o-spacing-top--xl {
+    margin-top: $spacing-xl;
+}
+
+.o-spacing-top--xxl {
+    margin-top: $spacing-xxl;
+}
+
+.o-spacing-top--s {
+    margin-top: $spacing-s;
+}
+
+.o-spacing-top--xs {
+    margin-top: $spacing-xs;
+}
+
+.o-spacing-top--xxs {
+    margin-top: $spacing-xxs;
+}
+
+.o-spacing-bottom {
+    margin-bottom: $spacing;
+}
+
+.o-spacing-bottom--l {
+    margin-bottom: $spacing-l;
+}
+
+.o-spacing-bottom--xl {
+    margin-bottom: $spacing-xl;
+}
+
+.o-spacing-bottom--xxl {
+    margin-bottom: $spacing-xxl;
+}
+
+.o-spacing-bottom--s {
+    margin-bottom: $spacing-s;
+}
+
+.o-spacing-bottom--xs {
+    margin-bottom: $spacing-xs;
+}
+
+.o-spacing-bottom--xxs {
+    margin-bottom: $spacing-xxs;
+}
+
+.o-gutters {
+    padding: 0 $spacing-l;
+}
