@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 13px;
+    font-size: 14px;
 
     @add-mixin smallish {
         font-size: 16px;
@@ -15,7 +15,11 @@ html {
 body {
     color: $colour-text;
     font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "freight-text-pro";
+}
+
+h1, h2, h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1, h2, h3, p {
@@ -26,22 +30,28 @@ h1, h2, h3, p {
 
 h1 {
     font-weight: 800;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 36px;
+    line-height: 52px;
 
     @add-mixin smallish {
-        font-size: 48px;
-        line-height: 64px;
+      font-size: 40px;
+      line-height: 52px;
+    }
+
+    @add-mixin medium {
+      font-size: 50px;
+      line-height: 64px;
     }
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 52px;
+    font-weight: 800;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
 }
 
@@ -49,38 +59,39 @@ span,
 p {
     font-size: 20px;
     line-height: 32px;
+    font-weight: 300;
 }
 
-input {
-    width: 100%;
-    outline: 0;
-    border-radius: 5px;
-    border: 0;
-    padding: $spacing;
-    font-size: 20px;
-    box-shadow: inset 0 0 0 2px $colour-framing;
-    -webkit-appearance: none;
-
-    &:focus,
-    &:active {
-        box-shadow: inset 0 0 0 2px $colour-brand;
-    }
-}
-
-input[type=submit] {
-    box-shadow: none;
+p {
+    margin: 0 auto;
+    margin-bottom: $spacing-l;
 }
 
 a,
-link {
+a:link {
     color: $colour-brand;
     text-decoration: none;
+    transition: color 0.2s;
 
-    &:hover {
-        text-decoration: underline;
+    @add-mixin hover {
+        color: $colour-brand;
+        text-decoration: none;
     }
 }
 
 strong {
     color: $colour-text;
+    font-weight: 600;
+}
+
+ol {
+    padding-left: $spacing-l;
+    margin-bottom: $spacing-l;
+}
+
+li {
+    color: $colour-text;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: $spacing-l;
 }

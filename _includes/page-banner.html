@@ -1,0 +1,19 @@
+<section class="c-section c-page-banner">
+  <div class="o-wrapper o-gutters">
+
+    {% case page.collection %}
+    {% when 'work' %}
+    <h1 class="c-page-banner__subheader">{{page.title}}</h1>
+    <h1 class="c-page-banner__header">{{page.description}}</h1>
+    {% assign tags_array = page.meta-job-tags | split: "," %}
+    <div class="o-spacing-top--s">
+      {% for tag in tags_array %}
+      <span class="c-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% else %}
+    <h1 class="c-page-banner__header">{{page.title}}</h1>
+    {% endcase %}
+
+  </div>
+</section>

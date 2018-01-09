@@ -1,46 +1,14 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+<footer class="c-footer" role="banner">
+  <div class="o-wrapper o-gutters">
+    <div class="o-flex o-flex-justify--space-between">
+      <a href="/" class="c-footer__logo-wrapper">
+        {% include logo.html %}
+      </a>
+      <nav>
+        <a class="c-footer__nav-link" href="https://twitter.com/p0pmaker"><h3>Twitter</h3></a>
+        <a class="c-footer__nav-link" href="https://dribbble.com/jackylee"><h3>Dribbble</h3></a>
+        <a class="c-footer__nav-link" href="https://github.com/aboutjax"><h3>Github</h3></a>
+      </nav>
     </div>
-
   </div>
-
 </footer>

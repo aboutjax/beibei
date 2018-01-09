@@ -1,4 +1,10 @@
 .o-wrapper {
+    width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+
+.o-gutters {
+    padding-left: $spacing-xl;
+    padding-right: $spacing-xl;
 }

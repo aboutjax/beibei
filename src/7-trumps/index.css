@@ -1,0 +1,5 @@
+@import "trumps.theme.css";
+
+.t-supplementary {
+    color: $colour-supplementary;
+}

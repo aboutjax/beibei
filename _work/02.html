@@ -1,0 +1,139 @@
+---
+layout: default
+title: "Banana"
+description: "Visualize your Strava activites"
+slug: 'banana'
+excerpt-card-theme: 'dark'
+excerpt-card-image: '/assets/work-excerpt/banana.png'
+feature-on-home: true
+coming-soon: false
+meta-job-title: "Design / Development / User"
+meta-job-duration: "2017 – Current"
+meta-job-tags: "product design, front end, react"
+---
+
+<section class="c-section c-section--extend-banner c-work-content">
+  <div class="o-gutters o-wrapper">
+    {% include image.html url='/assets/work/banana/banana-product-image-3' alt='banana product image'%}
+  </div>
+</section>
+
+<div class="o-wrapper o-gutters">
+
+  {% comment %} Features {% endcomment %}
+  <section class="c-section">
+    <div class="c-work-content--reading">
+      <p class="t-supplementary"><strong>{{page.meta-job-title}}</strong></br>
+        <span class="t-supplementary">{{page.meta-job-duration}}</span>
+      </p>
+      <p>
+        When I'm not on the computer designing products, you can find me on my bike clocking miles and training for the next cycling event. Most of my activities are tracked with <a href="https://www.strava.com/athletes/1105155">Strava</a>. In 2017 I set myself a goal to learn Firebase and React, so decided to turn my passion for cycling into an opportunity to build a client with Strava's APIs.
+      </p>
+      <p>
+        <a href="https://banana.fitness">View Banana </a>
+      </p>
+    </div>
+
+  </section>
+  <section class="c-section">
+    <div class="c-work-content c-work-content--reading">
+      <h2>Save your favourite activites.</h2>
+      <p>
+        One thing I wish Strava has is the ability to favourite / pin certain activites for easier access in the future. So I used <a href="https://firebase.google.com/docs/database/">Firebase realtime database</a> to handle this piece of functionality.
+        Any actvities marked as 'favourite' will show up in <a href="https://banana.fitness/favourites">banana.fitness/favourites</a>.
+      </p>
+    </div>
+    <div class="c-work-content">
+      {% include image.html url='/assets/work/banana/banana-favourites' alt='Favouriting activites' caption='Favouriting activites.' %}
+    </div>
+  </section>
+  <section class="c-section">
+    <div class="c-work-content c-work-content--reading">
+      <h2>Publish. Share. Brag.</h2>
+      <p>
+        Depending on your Strava privacy settings, Strava limits the information displayed on your activity url if the viewer is not authenticated. With Banana, you can explicitly publish an activity and share it publicly with anyone without a Strava account. <a target="_blank" href="https://banana.fitness/public/strava:1105155/1342886716">See an example activity.</a>
+      </p>
+    </div>
+
+    <div class="c-work-content">
+      {% include image.html url='/assets/work/banana/banana-publish' alt='Publishing activites' caption='Publish an activity and share it publicly with anyone.'%}
+      {% include image.html url='/assets/work/banana/banana-data' alt='Favouriting activites' caption='Your activity data rendered beatifully and screenshot-ready.' %}
+    </div>
+  </section>
+  <section class="c-section">
+    <div class="c-work-content c-work-content--reading">
+      <h2>Calories burned, in digestable units.</h2>
+      <p>
+        What started out as a giggle exercise turned out to be quite refreshing. Sometimes it's just nice to know how many pints of beer you deserve after a Gran Fondo.
+      </p>
+    </div>
+    <div class="c-work-content">
+      {% include image.html url='/assets/work/banana/banana-calories' alt='Calories in digestable units' caption='Calories in digestable units.' %}
+    </div>
+  </section>
+  <section class="c-section">
+    <div class="c-work-content c-work-content--reading">
+      <h2>Year in Review.</h2>
+      <p>
+        Track your progress throughout the year at <a href="https://banana.fitness/year-review">banana.fitness/year-review</a>
+      </p>
+    </div>
+    <div class="c-work-content">
+      <video autoplay controls loop poster="/assets/work/banana/banana-year-review-poster.png">
+        <source src="/assets/work/banana/banana-year-review.webm" type="video/webm">
+        <source src="/assets/work/banana/banana-year-review.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+  <section class="c-section">
+    <div class="c-work-content c-work-content--reading">
+      <h2>Trials and tribulations.</h2>
+      <p>
+        I started Banana wanting to learn how to use Strava APIs and use that to visualise the data. However before I could do anything on the client side, I realised I needed a few things before I can even start tinkering with the API:
+      </p>
+      <ol>
+        <li>Host an Node auth server to handle exchanging the OAuth token access codes.</li>
+        <li>Implement <a href="https://firebase.google.com/docs/auth/admin/create-custom-tokens">Firebase Auth with Custom Tokens</a> in order to allow users to sign in with their Strava accounts, at the same time create a new account on Firebase. This was needed if I wanted to do any user related features, such as favouriting & publishing activities</li>
+        <li>Since I'm hosting the app on Github Pages, I had to wrap my head around <a href="https://github.com/rafrex/spa-github-pages">this tutorial</a> on how Single Page Apps redirect works.</li>
+      </ol>
+      <p>
+        Having had zero experience in OAuth, it took me a good chunk of time to set it up. I got there in the end and it <i>works</i>. To be honest till this day I'm still not 100% I did it the <i>right</i> way, but it works 😬.
+      </p>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Built a reaaallllly basic <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@Strava</a> client with <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> and <a href="https://twitter.com/nodejs?ref_src=twsrc%5Etfw">@nodejs</a> auth. No idea if this is even built correctly 😩. <a href="https://t.co/MlsW7yQAr4">pic.twitter.com/MlsW7yQAr4</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/866642494187986944?ref_src=twsrc%5Etfw">May 22, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <p>
+        Banana has come a long way and I have enjoyed building it with React. It's a perfect little side project to motivate me to learn a new language and experiment with design ideas.
+      </p>
+      <p>
+        This project will be ongoing and maintained by me, and I welcome any feedback & suggestions to how Banana can help you achieve your cycling goals!
+      </p>
+    </div>
+  </section>
+
+  {% comment %}
+  <!-- Process -->
+  <section class="c-section">
+
+
+
+
+    <div class="c-work-content c-work-content--reading">
+    <h2>The beginning</h2>
+
+    <p>
+    Having little experience in web dev, my quest to build this Strava client started with wrapping my head around how OAuth works. I've never built anything involving user accounts before so this was by far the most confusing part.
+  </p>
+
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Learning about OAuth this weekend. Really appreciate these &quot;Explain like I&#39;m 5&quot; responses. 💯 thank you <a href="https://twitter.com/jmort253?ref_src=twsrc%5Etfw">@jmort253</a> <a href="https://t.co/cowy22lHTu">pic.twitter.com/cowy22lHTu</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/863522326771519488?ref_src=twsrc%5Etfw">May 13, 2017</a></blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Built a reaaallllly basic <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@Strava</a> client with <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> and <a href="https://twitter.com/nodejs?ref_src=twsrc%5Etfw">@nodejs</a> auth. No idea if this is even built correctly 😩. <a href="https://t.co/MlsW7yQAr4">pic.twitter.com/MlsW7yQAr4</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/866642494187986944?ref_src=twsrc%5Etfw">May 22, 2017</a></blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+{% endcomment %}
+
+</section>
+</div>

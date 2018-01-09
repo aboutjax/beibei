@@ -13,17 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CookSafe - Your Food Control Plan in minutes
-email: info@cooksafe.co.nz
-description: A lot of food businesses struggle with setting up a Food Control Plan. We are developing a solution to set one up quickly and easily, so you can focus on serving delicious food.
+title: Jacky Lee - Product Designer
+email: aboutjax1990@gmail.com
+description: Product designer based in Auckland, New Zealand.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cooksafe.co.nz" # the base hostname & protocol for your site, e.g. http://example.com
-site_image_name: "site-image-photo-2.jpg"
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site_image_name: "cover.jpg"
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+collections:
+  work:
+    output: true
+    permalink: /work/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

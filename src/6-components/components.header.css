@@ -1,0 +1,31 @@
+.c-header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-header__nav-link {
+    margin-left: $spacing-xl;
+    font-size: 20px;
+    color: $colour-supplementary;
+    float: right;
+
+    h3 {
+        margin-bottom: 0;
+    }
+    display: inline-block;
+
+    &.active {
+        color: $colour-text;
+    }
+}
+
+.c-header__logo-wrapper {
+    display: inherit;
+    color: $colour-text;
+
+    @add-mixin hover {
+        color: $colour-brand;
+    }
+}

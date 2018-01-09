@@ -1,0 +1,31 @@
+.c-page-banner {
+    min-height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @add-mixin smallish {
+        min-height: 300px;
+    }
+}
+
+.c-page-banner__header {
+    max-width: 750px;
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 auto;
+
+    @add-mixin smallish {
+        font-size: 50px;
+    }
+}
+
+.c-page-banner__subheader {
+    max-width: 640px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 500;
+}

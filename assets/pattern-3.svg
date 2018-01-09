@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="444px" height="479px" viewBox="0 0 444 479" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pattern-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.539999962">
+        <g id="pattern-3">
+            <g id="pattern" transform="translate(223.000000, 240.036424) rotate(-180.000000) translate(-223.000000, -240.036424) translate(63.000000, 70.536424)">
+                <polygon id="Triangle" fill="#FF773B" fill-rule="nonzero" transform="translate(309.403974, 215.099338) rotate(-52.000000) translate(-309.403974, -215.099338) " points="309.403974 207.682119 316.821192 222.516556 301.986755 222.516556"></polygon>
+                <polygon id="Triangle" fill="#FF773B" fill-rule="nonzero" transform="translate(252.185430, 27.549669) rotate(138.000000) translate(-252.185430, -27.549669) " points="252.18543 20.1324503 259.602649 34.9668874 244.768212 34.9668874"></polygon>
+                <polygon id="Triangle" fill="#FF773B" fill-rule="nonzero" transform="translate(176.423841, 183.841060) rotate(-166.000000) translate(-176.423841, -183.841060) " points="176.423841 176.953642 183.311258 190.728477 169.536424 190.728477"></polygon>
+                <polygon id="Triangle" fill="#FF773B" fill-rule="nonzero" transform="translate(188.609272, 162.119205) scale(-1, 1) rotate(133.000000) translate(-188.609272, -162.119205) " points="188.609272 153.642384 197.086093 170.596026 180.13245 170.596026"></polygon>
+                <polygon id="Triangle" fill="#FF773B" fill-rule="nonzero" transform="translate(82.649007, 219.337748) scale(-1, 1) rotate(-175.000000) translate(-82.649007, -219.337748) " points="82.6490066 212.980132 89.0066225 225.695364 76.2913907 225.695364"></polygon>
+                <polygon id="Triangle" fill="#FF773B" fill-rule="nonzero" transform="translate(140.397351, 41.854305) rotate(69.000000) translate(-140.397351, -41.854305) " points="140.397351 31.7880795 150.463576 51.9205298 130.331126 51.9205298"></polygon>
+                <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(265.430464, 322.649007) scale(-1, 1) rotate(103.000000) translate(-265.430464, -322.649007) " cx="265.430464" cy="322.649007" r="13.2450331"></circle>
+                <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(188.079470, 13.245033) scale(-1, 1) rotate(37.000000) translate(-188.079470, -13.245033) " cx="188.07947" cy="13.2450331" r="9.00662252"></circle>
+                <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(90.066225, 101.721854) rotate(169.000000) translate(-90.066225, -101.721854) " cx="90.0662252" cy="101.721854" r="11.6556291"></circle>
+                <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(38.675497, 254.834437) scale(-1, 1) rotate(-141.000000) translate(-38.675497, -254.834437) " cx="38.6754967" cy="254.834437" r="10.0662252"></circle>
+                <rect id="Rectangle-2" fill="#FFCD5D" fill-rule="nonzero" transform="translate(294.569536, 151.523179) scale(-1, 1) rotate(-168.000000) translate(-294.569536, -151.523179) " x="283.97351" y="140.927152" width="21.192053" height="21.192053"></rect>
+                <rect id="Rectangle-2" fill="#FFCD5D" fill-rule="nonzero" transform="translate(197.615894, 307.814570) scale(-1, 1) rotate(-45.000000) translate(-197.615894, -307.814570) " x="187.549669" y="297.748344" width="20.1324503" height="20.1324503"></rect>
+                <rect id="Rectangle-2" fill="#FFCD5D" fill-rule="nonzero" transform="translate(114.437086, 296.688742) scale(-1, 1) rotate(76.000000) translate(-114.437086, -296.688742) " x="103.84106" y="286.092715" width="21.192053" height="21.192053"></rect>
+                <rect id="Rectangle-2" fill="#FFCD5D" fill-rule="nonzero" transform="translate(24.370861, 131.390728) scale(-1, 1) rotate(105.000000) translate(-24.370861, -131.390728) " x="12.7152318" y="119.735099" width="23.3112583" height="23.3112583"></rect>
+                <rect id="Rectangle-2" fill="#FFCD5D" fill-rule="nonzero" transform="translate(11.655629, 14.834437) rotate(-111.000000) translate(-11.655629, -14.834437) " x="3.17880795" y="6.35761589" width="16.9536424" height="16.9536424"></rect>
+                <polygon id="Path-2-Copy" fill="#FFFFFF" fill-rule="nonzero" transform="translate(25.430464, 299.867550) rotate(148.000000) translate(-25.430464, -299.867550) " points="12.7152318 314.701987 38.1456954 285.033113 33.5498285 314.701987"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

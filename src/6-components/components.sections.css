@@ -1,0 +1,7 @@
+.c-section {
+    padding: $spacing 0;
+
+    @add-mixin smallish {
+        padding: $spacing 0;
+    }
+}

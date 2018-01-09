@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pattern">
+            <polygon id="Triangle" fill="#FF773B" transform="translate(468.551601, 304.903854) rotate(-52.000000) translate(-468.551601, -304.903854) " points="468.551601 294.403854 479.051601 315.403854 458.051601 315.403854"></polygon>
+            <polygon id="Triangle" fill="#FF773B" transform="translate(389.325447, 44.328491) scale(-1, -1) rotate(-42.000000) translate(-389.325447, -44.328491) " points="389.325447 33.8284907 399.825447 54.8284907 378.825447 54.8284907"></polygon>
+            <polygon id="Triangle" fill="#FF773B" transform="translate(283.482017, 260.509133) scale(-1, -1) rotate(-346.000000) translate(-283.482017, -260.509133) " points="283.482017 251.009133 292.982017 270.009133 273.982017 270.009133"></polygon>
+            <polygon id="Triangle" fill="#FF773B" transform="translate(300.976026, 230.639289) scale(-1, 1) rotate(-227.000000) translate(-300.976026, -230.639289) " points="300.976026 218.639289 312.976026 242.639289 288.976026 242.639289"></polygon>
+            <polygon id="Triangle" fill="#FF773B" transform="translate(152.909300, 309.566272) scale(1, -1) rotate(-355.000000) translate(-152.909300, -309.566272) " points="152.9093 301.066272 161.4093 318.066272 144.4093 318.066272"></polygon>
+            <polygon id="Triangle" fill="#FF773B" transform="translate(233.904302, 64.005544) scale(-1, -1) rotate(-111.000000) translate(-233.904302, -64.005544) " points="233.904302 50.0055442 247.904302 78.0055442 219.904302 78.0055442"></polygon>
+            <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(407.004123, 452.935710) scale(-1, 1) rotate(-257.000000) translate(-407.004123, -452.935710) " cx="407.004123" cy="452.93571" r="18.5"></circle>
+            <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(298.859617, 24.464648) scale(-1, 1) rotate(-323.000000) translate(-298.859617, -24.464648) " cx="298.859617" cy="24.4646477" r="12.5"></circle>
+            <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(163.528626, 146.628024) scale(-1, -1) rotate(-11.000000) translate(-163.528626, -146.628024) " cx="163.528626" cy="146.628024" r="16.5"></circle>
+            <circle id="Oval-Copy-3" stroke="#4ECBFF" stroke-width="8" transform="translate(91.762330, 359.810934) scale(-1, 1) rotate(-141.000000) translate(-91.762330, -359.810934) " cx="91.7623303" cy="359.810934" r="14"></circle>
+            <rect id="Rectangle-2" fill="#FFCD5D" transform="translate(446.479493, 216.116017) scale(1, -1) rotate(-348.000000) translate(-446.479493, -216.116017) " x="431.979493" y="201.616017" width="29" height="29"></rect>
+            <rect id="Rectangle-2" fill="#FFCD5D" transform="translate(313.116051, 433.076844) scale(1, -1) rotate(-225.000000) translate(-313.116051, -433.076844) " x="299.116051" y="419.076844" width="28" height="28"></rect>
+            <rect id="Rectangle-2" fill="#FFCD5D" transform="translate(196.784140, 416.435562) scale(-1, 1) rotate(-284.000000) translate(-196.784140, -416.435562) " x="182.28414" y="401.935562" width="29" height="29"></rect>
+            <rect id="Rectangle-2" fill="#FFCD5D" transform="translate(72.763364, 188.648658) scale(-1, 1) rotate(-255.000000) translate(-72.763364, -188.648658) " x="56.2633639" y="172.148658" width="33" height="33"></rect>
+            <rect id="Rectangle-2" fill="#FFCD5D" transform="translate(55.608581, 26.103587) scale(-1, -1) rotate(-291.000000) translate(-55.608581, -26.103587) " x="43.6085813" y="14.1035875" width="24" height="24"></rect>
+            <polygon id="Path-2-Copy" fill="#FFFFFF" transform="translate(73.588150, 421.325062) rotate(-212.000000) translate(-73.588150, -421.325062) " points="55.5881502 441.825062 91.5881502 400.825062 85.0821261 441.825062"></polygon>
+        </g>
+    </g>
+</svg>

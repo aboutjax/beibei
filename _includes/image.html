@@ -1,0 +1,12 @@
+<figure>
+  <a href="{{ include.url | append:'@2x.png' }}">
+    <picture>
+      <source srcset="{{ include.url | append:'.png' }}" media="(max-width: 768px)">
+      <source srcset="{{ include.url | append:'@2x.png' }}" media="(min-width: 769px)">
+      <img src="{{ include.url | append:'@2x.png' }}" alt="{{ include.alt }}">
+    </picture>
+  </a>
+  {% if include.caption %}
+  <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

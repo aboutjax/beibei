@@ -3,19 +3,21 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="t-{{page.slug}} t-fade-in">
 
     {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main aria-label="Content">
+
+        {% include page-banner.html %}
+
         {{ content }}
-      </div>
+
     </main>
 
     {% include footer.html %}
 
-    <script src="js/app.js" charset="utf-8"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
 
   </body>
 

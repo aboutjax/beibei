@@ -1,13 +1,24 @@
 /* color base names*/
+
 $pastel-green: #45C661;
+$dark-blue: #003cee;
 $mine-shaft: #333333;
 $white: #FFFFFF;
 $alto: #d7d7d7;
 $gunsmoke: #858585;
-
+$alabaster: #FAFAFA;
+$chateau-green: #199B4A;
+$lightning-yellow: #ffc236;
 /* ui namespace*/
+
 $colour-text: $mine-shaft;
 $colour-supplementary: $gunsmoke;
 $colour-white: $white;
-$colour-brand: $pastel-green;
+$colour-brand: $mine-shaft;
 $colour-framing: $alto;
+$colour-background: $alabaster;
+
+
+/* theme colours */
+$colour-theme-koordinates: $chateau-green;
+$colour-theme-banana: $lightning-yellow;

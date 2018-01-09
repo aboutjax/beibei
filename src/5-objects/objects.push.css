@@ -1,0 +1,7 @@
+.o-push {
+    position: relative;
+}
+
+.o-push--up {
+    top: -150px;
+}

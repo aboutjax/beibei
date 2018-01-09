@@ -1,0 +1,17 @@
+.c-tag {
+    padding: $spacing-xs $spacing-s;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 11px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $colour-text;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.c-tag--light {
+    color: $colour-white;
+    border-color: rgba(255, 255, 255, 0.3);
+}
