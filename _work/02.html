@@ -89,18 +89,71 @@ meta-job-tags: "product design, front end, react"
     <div class="c-work-content c-work-content--reading">
       <h2>Trials and tribulations.</h2>
       <p>
-        I started Banana wanting to learn how to use Strava APIs and use that to visualise the data. However before I could do anything on the client side, I realised I needed a few things before I can even start tinkering with the API:
+        I started Banana wanting to learn how to visualise data from Strava APIs. However before that, I realised it needed a few things first:
       </p>
       <ol>
-        <li>Host an Node auth server to handle exchanging the OAuth token access codes.</li>
-        <li>Implement <a href="https://firebase.google.com/docs/auth/admin/create-custom-tokens">Firebase Auth with Custom Tokens</a> in order to allow users to sign in with their Strava accounts, at the same time create a new account on Firebase. This was needed if I wanted to do any user related features, such as favouriting & publishing activities</li>
+        <li>Host a Node auth server to handle exchanging the OAuth token access codes.</li>
+        <li>Implement <a href="https://firebase.google.com/docs/auth/admin/create-custom-tokens">Firebase Auth with Custom Tokens</a> in order to allow users to sign in with their Strava accounts, at the same time create a new account on Firebase. This was required for any user related features, such as favouriting & publishing activities</li>
         <li>Since I'm hosting the app on Github Pages, I had to wrap my head around <a href="https://github.com/rafrex/spa-github-pages">this tutorial</a> on how Single Page Apps redirect works.</li>
       </ol>
       <p>
-        Having had zero experience in OAuth, it took me a good chunk of time to set it up. I got there in the end and it <i>works</i>. To be honest till this day I'm still not 100% I did it the <i>right</i> way, but it works 😬.
+        Having had zero experience in OAuth, it took me a good chunk of time to set it up. I got there in the end and it <i>works</i>. To be honest till this day I'm still not 100% I did it the <i>right</i> way, but hey it works🤞🏼.
       </p>
       <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Built a reaaallllly basic <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@Strava</a> client with <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> and <a href="https://twitter.com/nodejs?ref_src=twsrc%5Etfw">@nodejs</a> auth. No idea if this is even built correctly 😩. <a href="https://t.co/MlsW7yQAr4">pic.twitter.com/MlsW7yQAr4</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/866642494187986944?ref_src=twsrc%5Etfw">May 22, 2017</a></blockquote>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </section>
+  <section class="c-section">
+    <div class="c-work-content c-work-content--reading">
+
+      <h2>Iterations.</h2>
+      <p>
+        Since it's early inception in May 2017, it has gone through incremental improvements. Areas such as the branding, functionality, usability and technical feats grew organically. I wish I had a clean Sketch file with each screen mockup, carefully considered and design for. Unfortunately this project was not the case.
+      </p>
+
+      <h3>UI Colors / Cartography</h3>
+      <p>The UI colours were set early in the process. I knew I wanted a dark UI so didn't think too much and went for it.</p>
+
+      <p>However, I soon realise picking a dark cartography for routes wasn't ideal. Map features such as land, water, road provides much better context to the route than just a block of dark gray land.</p>
+
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Tinkered with some more <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> and built something with <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@strava</a> API.<a href="https://t.co/JlnPYCKtCQ">https://t.co/JlnPYCKtCQ</a> <a href="https://t.co/hz5lmuSrMT">pic.twitter.com/hz5lmuSrMT</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/872051536461012992?ref_src=twsrc%5Etfw">June 6, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="c-work-content c-work-content--reading">
+
+      <p>And then I tried plugging in Mapbox...</p>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hooked <a href="https://twitter.com/Mapbox?ref_src=twsrc%5Etfw">@Mapbox</a> into my shiny <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@Strava</a> react client, working on turning off that fitbound animation 😞... <a href="https://t.co/yVpHwsBfIA">pic.twitter.com/yVpHwsBfIA</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/873762499153215488?ref_src=twsrc%5Etfw">June 11, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <p>But that wasn't enough so I added some start & finish markers...</p>
+      <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Added start &amp; end marker w/ tooltips. Goodnight 👋🏼 <a href="https://t.co/Z78arVKeuG">pic.twitter.com/Z78arVKeuG</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/873897723279187968?ref_src=twsrc%5Etfw">June 11, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+      <p>Then I used ChartJS to render the stream data</p>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Update: Wrangled with <a href="https://twitter.com/chartjs?ref_src=twsrc%5Etfw">@chartjs</a> in the <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@Strava</a> app I&#39;m building. ✅ <a href="https://t.co/adEBXcsbju">pic.twitter.com/adEBXcsbju</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/878154262055796736?ref_src=twsrc%5Etfw">June 23, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <p>Soon I realised I haven't got any indoor actvities to test the product with, so I pulled out my rollers and set out to work.</p>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you don’t want to brave the cold outside. <a href="https://t.co/ISSblTQCfV">pic.twitter.com/ISSblTQCfV</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/879941606983335936?ref_src=twsrc%5Etfw">June 28, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Indoor data works on 🍌 ✌🏼 <a href="https://t.co/P6AxsUxPow">pic.twitter.com/P6AxsUxPow</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/879943160943656961?ref_src=twsrc%5Etfw">June 28, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    </section>
+    <section class="c-section">
+      <div class="c-work-content c-work-content--reading">
+
+
+
+      <h2>Launch</h2>
+
+      <p>After a few weekends of tinkering around, I wanted other people to give the app a spin and launched it on the interwebs.</p>
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://t.co/Es5nH7K5AW">https://t.co/Es5nH7K5AW</a><br>After many weekends of crawling through docs, I present to you: 🍌Banana - with <a href="https://twitter.com/Strava?ref_src=twsrc%5Etfw">@strava</a> <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> <a href="https://twitter.com/Mapbox?ref_src=twsrc%5Etfw">@Mapbox</a> <a href="https://twitter.com/chartjs?ref_src=twsrc%5Etfw">@chartjs</a></p>&mdash; Jacky Lee 🇹🇼🇳🇿 (@p0pmaker) <a href="https://twitter.com/p0pmaker/status/878842165819883520?ref_src=twsrc%5Etfw">June 25, 2017</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
       <p>
         Banana has come a long way and I have enjoyed building it with React. It's a perfect little side project to motivate me to learn a new language and experiment with design ideas.
