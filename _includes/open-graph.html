@@ -3,5 +3,9 @@
 <meta property="og:description" content="{{site.description}}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{site.url}}" />
+{% if page.social-image %}
+<meta property="og:image" content="{{ page.social-image }}"/>
+{% else %}
 <meta property="og:image" content="{{site.url}}/assets/{{site.site_image_name}}"/>
+{% endif %}
 <!-- open graph end -->
