@@ -1,11 +1,11 @@
 <!-- open graph start -->
-<meta property="og:title" content="{{site.title}}" />
-<meta property="og:description" content="{{site.description}}" />
+<meta property="og:title" content="Jacky Lee – {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{site.url}}" />
 {% if page.social-image %}
 <meta property="og:image" content="{{ page.social-image }}"/>
 {% else %}
-<meta property="og:image" content="{{site.url}}/assets/{{site.site_image_name}}"/>
+<meta property="og:image" content="{% if page.social-image %}{{ page.social-image }}{% else %}{{ site.url }}/assets/{ site.site_image_name }}{% endif %}"/>
 {% endif %}
 <!-- open graph end -->

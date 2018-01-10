@@ -1,11 +1,10 @@
 <!-- twitter cards start -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@p0pmaker" />
-{% if page.social-image %}
-<meta name="twitter:image" content="{{ page.social-image }}">
-{% else %}
-<meta name="twitter:image" content="{{site.url}}/assets/{{site.site_image_name}}">
-{% endif %}
-<meta name="twitter:title" content="{{site.title}}">
-<meta name="twitter:description" content="{{site.description}}">
+<meta name="twitter:title" content="Jacky Lee – {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<meta name="twitter:image" content="{% if page.social-image %}{{ page.social-image }}{% else %}{{ site.url }}/assets/{ site.site_image_name }}{% endif %}">
+
 <!-- twitter cards end -->
