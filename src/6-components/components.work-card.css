@@ -59,6 +59,7 @@ $work-card-masonry-offset: calc($work-card-height / 3);
     }
 
     .c-work-card__title {
+        color: $colour-text;
         opacity: 0.6;
         font-size: 20px;
         font-weight: 400;
@@ -67,6 +68,7 @@ $work-card-masonry-offset: calc($work-card-height / 3);
     }
 
     .c-work-card__description {
+        color: $colour-text;
         font-size: 28px;
         font-weight: 600;
         opacity: 0.99;

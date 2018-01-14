@@ -1163,8 +1163,11 @@ p {
     margin-bottom: calc(1rem * 2);
 }
 
+a {
+}
+
 a, a:link {
-    color: #333333;
+    color: #003cee;
     text-decoration: none;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -1513,6 +1516,7 @@ li {
 }
 
 .c-work-card .c-work-card__title {
+        color: #333333;
         opacity: 0.6;
         font-size: 1.25rem;
         font-weight: 400;
@@ -1521,6 +1525,7 @@ li {
 }
 
 .c-work-card .c-work-card__description {
+        color: #333333;
         font-size: 1.75rem;
         font-weight: 600;
         opacity: 0.99;

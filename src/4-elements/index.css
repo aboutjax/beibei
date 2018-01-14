@@ -67,9 +67,12 @@ p {
     margin-bottom: $spacing-l;
 }
 
+a {
+}
+
 a,
 a:link {
-    color: $colour-brand;
+    color: $dark-blue;
     text-decoration: none;
     transition: color 0.2s;
 
