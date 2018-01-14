@@ -1797,6 +1797,16 @@ li {
         border: none;
 }
 
+.c-work-content blockquote {
+        font-size: 1.25rem;
+        padding-left: 1rem;
+        line-height: 1.4;
+        font-style: italic;
+        color: #858585;
+        margin-bottom: calc(1rem * 2);
+        border-left: 0.25rem solid #858585;
+}
+
 .c-work-content__image {
     width: 100%;
 }
@@ -1914,6 +1924,42 @@ li {
         padding-top: 0;
         background-image: -webkit-gradient(linear, left bottom, left top, color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgb(255, 200, 74)));
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, rgb(255, 200, 74) 70%);
+    }
+
+.t-vend .c-header {
+        background-color: rgb(236, 243, 250);
+    }
+
+.t-vend .c-header__nav-link {
+        color: rgb(70, 73, 75);
+    }
+
+.t-vend .c-header__logo-wrapper {
+        color: rgb(70, 73, 75);
+    }
+
+.t-vend .c-page-banner {
+        background-color: rgb(236, 243, 250);
+        color: rgb(70, 73, 75);
+    }
+
+.t-vend .c-footer__nav-link {
+        color: rgb(70, 73, 75);
+    }
+
+.t-vend .c-footer__logo-wrapper {
+        color: rgb(70, 73, 75);
+    }
+
+.t-vend a {
+        color: rgb(82, 168, 255);
+    }
+
+.t-vend .c-section--extend-banner {
+        position: relative;
+        padding-top: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgb(236, 243, 250)));
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, rgb(236, 243, 250) 70%);
     }
 
 .t-supplementary {

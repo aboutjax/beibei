@@ -46,6 +46,16 @@
     iframe {
         border: none;
     }
+
+    blockquote {
+        font-size: 20px;
+        padding-left: $spacing;
+        line-height: 1.4;
+        font-style: italic;
+        color: $colour-supplementary;
+        margin-bottom: $spacing-l;
+        border-left: 4px solid $colour-supplementary;
+    }
 }
 
 .c-work-content__image {

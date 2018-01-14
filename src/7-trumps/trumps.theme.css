@@ -4,6 +4,9 @@ $colour-theme-koordinates-banner-text-color: color($colour-theme-koordinates sha
 $colour-theme-banana-banner: color($colour-theme-banana tint(10%));
 $colour-theme-banana-banner-text-color: color($colour-theme-banana shade(70%));
 
+$colour-theme-vend-banner: color($colour-theme-vend tint(10%));
+$colour-theme-vend-banner-text-color: color($colour-theme-vend shade(70%));
+
 .t-koordinates {
     .c-header {
         background-color: $colour-theme-koordinates-banner;
@@ -81,6 +84,45 @@ $colour-theme-banana-banner-text-color: color($colour-theme-banana shade(70%));
         position: relative;
         padding-top: 0;
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, $colour-theme-banana-banner 70%);
+    }
+
+}
+
+
+.t-vend {
+    .c-header {
+        background-color: $colour-theme-vend-banner;
+    }
+
+    .c-header__nav-link {
+        color: $colour-theme-vend-banner-text-color;
+    }
+
+    .c-header__logo-wrapper {
+        color: $colour-theme-vend-banner-text-color;
+    }
+
+    .c-page-banner {
+        background-color: $colour-theme-vend-banner;
+        color: $colour-theme-vend-banner-text-color;
+    }
+
+    .c-footer__nav-link {
+        color: $colour-theme-vend-banner-text-color;
+    }
+
+    .c-footer__logo-wrapper {
+        color: $colour-theme-vend-banner-text-color;
+    }
+
+    a {
+        color: color($colour-theme-vend shade(30%) saturation(100%));
+    }
+
+    .c-section--extend-banner {
+        position: relative;
+        padding-top: 0;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, $colour-theme-vend-banner 70%);
     }
 
 }
