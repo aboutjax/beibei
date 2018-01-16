@@ -6,6 +6,6 @@
 {% if page.social-image %}
 <meta property="og:image" content="{{ page.social-image }}"/>
 {% else %}
-<meta property="og:image" content="{% if page.social-image %}{{ page.social-image }}{% else %}{{ site.url }}/assets/{ site.site_image_name }}{% endif %}"/>
+<meta property="og:image" content="{% if page.social-image %}{{ page.social-image }}{% else %}{{ site.url }}/assets/{{ site.site_image_name }}{% endif %}"/>
 {% endif %}
 <!-- open graph end -->
