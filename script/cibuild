@@ -1,2 +1,2 @@
 gem install jekyll html-proofer
-bundle exec jekyll build --baseurl= && htmlproofer --http-status-ignore "999,401,404" ./_site
+bundle exec jekyll build --baseurl= && htmlproofer --http-status-ignore "999,401,404,301,0" ./_site
