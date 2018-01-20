@@ -12,3 +12,6 @@ We use [gulp](https://gulpjs.com/) for building & compiling.
 2. From directory, run `npm install`
 3. Run `gulp`
 4. The gulp task will automatically open your browser for you at `localhost:3000`
+
+## Run Tests
+`rake test`
