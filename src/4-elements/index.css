@@ -71,7 +71,8 @@ a {
 }
 
 a,
-a:link {
+a:link,
+a:visited {
     color: $dark-blue;
     text-decoration: none;
     transition: color 0.2s;

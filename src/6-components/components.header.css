@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.c-header__nav-link {
+a.c-header__nav-link {
     margin-left: $spacing-xl;
     font-size: 20px;
     color: $colour-supplementary;
@@ -21,7 +21,7 @@
     }
 }
 
-.c-header__logo-wrapper {
+a.c-header__logo-wrapper {
     display: inherit;
     color: $colour-text;
 

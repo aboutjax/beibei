@@ -12,15 +12,25 @@
     align-items: center;
 }
 
-.c-footer__nav-link {
-    margin-left: $spacing-xl;
-    font-size: 20px;
+a.c-footer__nav-link {
+    margin-left: $spacing;
     color: $colour-supplementary;
     float: right;
 
     h3 {
+        font-size: 16px;
         margin-bottom: 0;
+        font-weight: normal;
+
+        @add-mixin smallish {
+            font-weight: 700;
+            font-size: 20px;
+        }
     }
+    @add-mixin smallish {
+        margin-left: $spacing-xl;
+    }
+
     display: inline-block;
 
     &.active {
@@ -28,7 +38,7 @@
     }
 }
 
-.c-footer__logo-wrapper {
+a.c-footer__logo-wrapper {
     display: inherit;
     color: $colour-supplementary;
 }
