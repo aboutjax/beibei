@@ -1,4 +1,5 @@
 # Beibei
+![build status](https://travis-ci.org/aboutjax/beibei.svg?branch=master)
 
 ## Setup Requirements
 - [Jekyll](https://jekyllrb.com/docs/installation/) -- you will need to install this on your system
