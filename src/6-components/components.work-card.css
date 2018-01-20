@@ -1,5 +1,5 @@
-$work-card-height: 450px;
-$work-card-height-higher: 500px;
+$work-card-height: 400px;
+$work-card-height-higher: 450px;
 $work-card-masonry-offset: calc($work-card-height / 3);
 
 .c-work-cards {

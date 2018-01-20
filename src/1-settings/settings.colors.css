@@ -9,6 +9,7 @@ $gunsmoke: #858585;
 $alabaster: #FAFAFA;
 $chateau-green: #199B4A;
 $lightning-yellow: #ffc236;
+$confetti: #EADA6A;
 $zumthor: #eaf2f9;
 /* ui namespace*/
 
@@ -24,3 +25,4 @@ $colour-background: $alabaster;
 $colour-theme-koordinates: $chateau-green;
 $colour-theme-banana: $lightning-yellow;
 $colour-theme-vend: $zumthor;
+$colour-theme-moustache: $confetti;

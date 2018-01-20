@@ -1468,7 +1468,7 @@ li {
     position: relative;
     padding: calc(1rem * 2);
     background-color: rgb(216, 230, 235);
-    min-height: 28.125rem;
+    min-height: 25rem;
     -webkit-transition: -webkit-box-shadow 0.1s;
     transition: -webkit-box-shadow 0.1s;
     transition: box-shadow 0.1s;
@@ -1486,14 +1486,14 @@ li {
 @media only screen and (min-width: 30rem) {
 
     .c-work-card {
-        min-height: 31.25rem;
+        min-height: 28.125rem;
     }
 }
 
 @media only screen and (min-width: 48rem) {
 
     .c-work-card {
-        min-height: 28.125rem;
+        min-height: 25rem;
         -ms-flex-preferred-size: calc(50% - 1rem);
             flex-basis: calc(50% - 1rem);
     }
@@ -1505,8 +1505,8 @@ li {
     .c-work-card:nth-of-type(even) {
         margin-left: 1rem;
         position: relative;
-        -webkit-transform: translateY(calc(28.125rem / 3));
-                transform: translateY(calc(28.125rem / 3));
+        -webkit-transform: translateY(calc(25rem / 3));
+                transform: translateY(calc(25rem / 3));
     }
 }
 
@@ -1965,6 +1965,42 @@ li {
         padding-top: 0;
         background-image: -webkit-gradient(linear, left bottom, left top, color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgb(236, 243, 250)));
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, rgb(236, 243, 250) 70%);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-header {
+        background-color: rgb(236, 222, 121);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-header__nav-link {
+        color: rgb(70, 65, 32);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-header__logo-wrapper {
+        color: rgb(70, 65, 32);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-page-banner {
+        background-color: rgb(236, 222, 121);
+        color: rgb(70, 65, 32);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-footer__nav-link {
+        color: rgb(70, 65, 32);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-footer__logo-wrapper {
+        color: rgb(70, 65, 32);
+    }
+
+.t-moustache-milk-and-cookie-bar a {
+        color: rgb(168, 146, 0);
+    }
+
+.t-moustache-milk-and-cookie-bar .c-section--extend-banner {
+        position: relative;
+        padding-top: 0;
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgb(236, 222, 121)));
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, rgb(236, 222, 121) 70%);
     }
 
 .t-supplementary {
