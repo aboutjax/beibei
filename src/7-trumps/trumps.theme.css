@@ -130,7 +130,7 @@ $colour-theme-moustache-banner-text-color: color($colour-theme-moustache shade(7
 
 }
 
-.t-moustache-milk-and-cookie-bar {
+.t-moustache {
     .c-header {
         background-color: $colour-theme-moustache-banner;
     }
