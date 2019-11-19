@@ -1,28 +1,38 @@
 ---
 layout: default
-slug: 'home'
-title: 'Product designer based in Auckland, New Zealand'
+slug: "home"
+title: "Jacky Lee is a Product Manager & Software Designer currently working at Wahoo Fitness."
 ---
 
 <div class="o-wrapper">
   <div class="c-work-cards">
-
-    {% for item in site.work %}
-    {% if item.feature-on-home == true %}
-    <a class="c-work-card c-work-card--{{item.excerpt-card-theme}} {% if item.coming-soon == true %}coming-soon{% endif %}" href="{{item.url}}">
+    {% for item in site.work %} {% if item.feature-on-home == true %}
+    <a
+      class="c-work-card c-work-card--{{item.excerpt-card-theme}} {% if item.coming-soon == true %}coming-soon{% endif %}"
+      href="{{item.url}}"
+    >
       <div>
         {% if item.excerpt-card-theme == 'light' %}
-        <div class="c-work-card__pattern" style="background-image: url('{{site.url}}/assets/pattern-2.svg')"></div>
-        <div class="c-work-card__image {% if item.coming-soon == true %}coming-soon{% endif %}" style="background-image: url('{{item.excerpt-card-image}}')"></div>
+        <div
+          class="c-work-card__pattern"
+          style="background-image: url('{{site.url}}/assets/pattern-2.svg')"
+        ></div>
+        <div
+          class="c-work-card__image {% if item.coming-soon == true %}coming-soon{% endif %}"
+          style="background-image: url('{{item.excerpt-card-image}}')"
+        ></div>
         {% endif %}
-        <div class="c-work-card__image {% if item.coming-soon == true %}coming-soon{% endif %}" style="background-image: url('{{item.excerpt-card-image}}')"></div>
+        <div
+          class="c-work-card__image {% if item.coming-soon == true %}coming-soon{% endif %}"
+          style="background-image: url('{{item.excerpt-card-image}}')"
+        ></div>
         <h3 class="c-work-card__title">{{item.title}}</h3>
         <p class="c-work-card__description">{{item.description}}</p>
-        {% if item.coming-soon == true %}<h3 class="c-work-card__coming-soon">Coming soon</h3>{% endif %}
+        {% if item.coming-soon == true %}
+        <h3 class="c-work-card__coming-soon">Coming soon</h3>
+        {% endif %}
       </div>
     </a>
-    {% endif %}
-    {% endfor %}
-
+    {% endif %} {% endfor %}
   </div>
 </div>

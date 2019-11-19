@@ -1639,16 +1639,17 @@ li {
 }
 
 .c-page-banner__header {
-    max-width: 46.875rem;
-    font-size: 1.875rem;
-    line-height: 1.2;
+    max-width: 40.625rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
     margin: 0 auto;
+    /* font-weight: 400; */
 }
 
 @media only screen and (min-width: 30rem) {
 
     .c-page-banner__header {
-        font-size: 3.125rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -1668,7 +1669,7 @@ li {
 }
 
 .c-header {
-    min-height: 6.25rem;
+    min-height: 8.75rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
