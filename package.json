@@ -18,7 +18,7 @@
   "homepage": "https://github.com/cooksafe/avocado#readme",
   "dependencies": {
     "autoprefixer": "^7.1.6",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "github-markdown-css": "^2.10.0",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
