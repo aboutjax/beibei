@@ -27,6 +27,6 @@
     "postcss-define-function": "^0.1.1",
     "postcss-functions": "^3.0.0",
     "postcss-pixels-to-rem": "^0.8.0",
-    "precss": "^2.0.0"
+    "precss": "^4.0.0"
   }
 }
